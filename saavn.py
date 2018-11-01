@@ -2,7 +2,7 @@ import pyautogui                     # for keyboard functionality
 from selenium import webdriver       #for browser automation
 import time   
 
-music = input('Enter the name of song : ')
+music = input('Enter the name of song : ').title()
 
 
 url = 'https://www.saavn.com/'
